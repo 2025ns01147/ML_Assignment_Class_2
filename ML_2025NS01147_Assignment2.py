@@ -197,7 +197,7 @@ st.subheader("3.2 Correlation Heatmap")
 fig, ax = plt.subplots(figsize=(9, 6))
 sns.heatmap(
     df_processed.corr(), annot=True, fmt='.2f',
-    cmap='coolwarm', center=0, ax=ax,
+    cmap='Reds', center=0, ax=ax,
     linewidths=0.5, annot_kws={'size': 9}
 )
 ax.set_title('Feature Correlation Heatmap', fontsize=13, fontweight='bold', pad=12)
